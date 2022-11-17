@@ -1,24 +1,52 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Georgia, serif;
-  
-}
+
+
 
 
 body{
-/* background: url(../images/espaco-sideral-lua-planeta-imagem-de-fundo.jpg); */
-background-size: cover;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background: linear-gradient(rgba(70, 12, 52, 0.6) , rgba(29, 31, 28, 0.533))
+  /* background: url(../images/espaco-sideral-lua-planeta-imagem-de-fundo.jpg); */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(70, 12, 52, 0.6) , rgba(29, 31, 28, 0.533))
+  }
 
+h1{
+    text-align: center;
+    color: #fff;
 }
-/* .container{
-width: 350px;
+
+/* box redes sociais */
+.flex-container{
+  display: -webkit-flex;
+  display: flex;
+  width: 15vw;
+  height: 11vh;
+  background-color: transparent ;
+  align-items: center;
+  border-radius: 70px;
+}
+
+.flex-item {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  margin: 5;
+  width: 65px;
+  height: 57px;
+  margin: 20px;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 9px;
+  -webkit-box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.93); 
+  box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.93); 
+}
+
+
+.form{
+width: 16vw;
 background: rgba(10, 10, 10, 0.5);
 border-radius: 10% 10%;
 box-shadow: 1px 2px 20px rgb(151, 147, 147), 2px 6px 50px #000;
@@ -26,114 +54,45 @@ padding: 50px 20px;
 justify-content: center;
 align-items: center;
 justify-content: center;
-height: 25vw;  
-}   */
-
+height: 24vw;  
+} 
 
 input{
-width: 80%;
-margin: 0 auto;
-padding: 10px;
-border: none;
-margin-bottom: 10px;
-border-radius: 50px;
-background: rgba(78, 63, 63, 0.5);
-
-}
-h1{
-text-align: center;
-color: #fff;
-}
-.redesSociais{
-  display: -webkit-flex;
-  display: flex;
-  width: 400px;
-  height: 250px;
- 
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  background: rgba(56, 54, 54, 0.5);
 }
 
-.redesSociais.face.git.in{
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-}
-
-
-.facebook{
-font-size: 25px;
-color: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 50px;
-height: 50px;
-border-radius: 50%;
-margin: 5px;
-}
-.face {
-background-color:transparent;
-}
-
-.linkdin{
-font-size: 25px;
-color: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 50px;
-height: 50px;
-border-radius: 50%;
-margin: 5px;
-}
-.in {
-background-color: transparent;
-}
-.github{
-font-size: 25px;
-color: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 50px;
-height: 50px;
-border-radius: 50%;
-margin: 5px;
-}
-.git {
-background-color: transparent;
-}
 a {
-font-family: Poppins-Regular;
-font-size: 14px;
-line-height: 1.7;
-color: #ffffff;
-margin: 0px;
-transition: all 0.4s;
--webkit-transition: all 0.4s;
-}
-
-.RedesSociais{
-outline: 2px solid transparent;
-outline-offset: 0px;
-/* background: transparent rgb(114, 113, 109) no-repeat scroll 50% 100%; */
-background: rgba(27, 27, 27, 0.5);
-
--webkit-border-radius: 14px;
-border-radius: 14px;
--webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 5px 26px 5px rgba(0,0,0,0.56); 
-box-shadow: 0px 10px 13px -7px #000000, 10px 5px 26px 5px rgba(0,0,0,0.56);
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ffffff;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
 }
 
 .btn {
-width: 7vw;
-color: #b92b27 ; font-size: 14px; line-height: 14px; padding: 7px; border-radius: 9px; font-family: Georgia, serif; font-weight: normal; 
-text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(24, 26, 27) 0%, rgb(64, 100, 124) 67%, rgb(20, 78, 117) 100%);  
-border: 2px solid rgb(28, 110, 164); display: inline-block;}
-.btn:hover {
-background: -webkit-linear-gradient(to right, #0d0f11, #b92b27); }
-.btn:active {
-background: linear-gradient(to right, #151616, #b92b27);
+      width: 9vw;
+      height: 4vh;
+      color: #b92b27 ; font-size: 14px; line-height: 14px; padding: 7px; border-radius: 9px; font-family: Georgia, serif; font-weight: normal; 
+      text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(24, 26, 27) 0%, rgb(64, 100, 124) 67%, rgb(20, 78, 117) 100%);  
+      border: 2px solid rgb(28, 110, 164); display: inline-block;}
+      .btn:hover {
+      background: -webkit-linear-gradient(to right, #0d0f11, #b92b27); }
+      .btn:active {
+      background: linear-gradient(to right, #151616, #b92b27);
 }
+
+
+
+
+
 
 
 
